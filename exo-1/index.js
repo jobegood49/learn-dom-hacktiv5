@@ -15,3 +15,7 @@ let pTags = document.getElementsByClassName('change-all-of-me')
 for (let i = 0; i < pTags.length; i++) {
   pTags[i].innerHTML = 'HALO JUga!'
 }
+
+elem = document.getElementsByTagName('h2')
+console.log(elem)
+elem[0].innerHTML = 'Apa Kabar!'
